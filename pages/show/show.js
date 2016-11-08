@@ -23,7 +23,7 @@ Page({
 
 		console.log("options:"+options.id)
 
-		FULL_URL = API_URL + '?id=' + options.id
+		var FULL_URL = API_URL + '?id=' + options.id
 
 		console.log(API_URL)
 
